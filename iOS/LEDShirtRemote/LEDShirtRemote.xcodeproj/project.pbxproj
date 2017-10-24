@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E138EF91F9B1CA7007D80E9 /* FrameViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E138EF81F9B1CA7007D80E9 /* FrameViewCell.swift */; };
+		4E138EFB1F9B1D1C007D80E9 /* FramesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E138EFA1F9B1D1C007D80E9 /* FramesTableViewController.swift */; };
+		4E138EFD1F9B1E60007D80E9 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E138EFC1F9B1E60007D80E9 /* Frame.swift */; };
+		4EBB946E1F9B167900D537F4 /* ColorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB946D1F9B167800D537F4 /* ColorWrapper.swift */; };
+		4EBB94701F9B183300D537F4 /* SystemDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB946F1F9B183300D537F4 /* SystemDataHelper.swift */; };
+		4EFE74731F96F32300DF5167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE74721F96F32300DF5167 /* AppDelegate.swift */; };
+		4EFE74751F96F32300DF5167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE74741F96F32300DF5167 /* ViewController.swift */; };
+		4EFE74781F96F32300DF5167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE74761F96F32300DF5167 /* Main.storyboard */; };
+		4EFE747A1F96F32300DF5167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE74791F96F32300DF5167 /* Assets.xcassets */; };
+		4EFE747D1F96F32300DF5167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE747B1F96F32300DF5167 /* LaunchScreen.storyboard */; };
+		4EFE74881F96F32400DF5167 /* LEDShirtRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE74871F96F32400DF5167 /* LEDShirtRemoteTests.swift */; };
+		4EFE74931F96F32400DF5167 /* LEDShirtRemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE74921F96F32400DF5167 /* LEDShirtRemoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EFE74841F96F32400DF5167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFE74671F96F32300DF5167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EFE746E1F96F32300DF5167;
+			remoteInfo = LEDShirtRemote;
+		};
+		4EFE748F1F96F32400DF5167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFE74671F96F32300DF5167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EFE746E1F96F32300DF5167;
+			remoteInfo = LEDShirtRemote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E138EF81F9B1CA7007D80E9 /* FrameViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewCell.swift; sourceTree = "<group>"; };
+		4E138EFA1F9B1D1C007D80E9 /* FramesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesTableViewController.swift; sourceTree = "<group>"; };
+		4E138EFC1F9B1E60007D80E9 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		4EBB946D1F9B167800D537F4 /* ColorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWrapper.swift; sourceTree = "<group>"; };
+		4EBB946F1F9B183300D537F4 /* SystemDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemDataHelper.swift; sourceTree = "<group>"; };
+		4EFE746F1F96F32300DF5167 /* LEDShirtRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDShirtRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFE74721F96F32300DF5167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EFE74741F96F32300DF5167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EFE74771F96F32300DF5167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EFE74791F96F32300DF5167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EFE747C1F96F32300DF5167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EFE747E1F96F32300DF5167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFE74831F96F32400DF5167 /* LEDShirtRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDShirtRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFE74871F96F32400DF5167 /* LEDShirtRemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDShirtRemoteTests.swift; sourceTree = "<group>"; };
+		4EFE74891F96F32400DF5167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFE748E1F96F32400DF5167 /* LEDShirtRemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDShirtRemoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFE74921F96F32400DF5167 /* LEDShirtRemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDShirtRemoteUITests.swift; sourceTree = "<group>"; };
+		4EFE74941F96F32400DF5167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EFE746C1F96F32300DF5167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFE74801F96F32400DF5167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFE748B1F96F32400DF5167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EFE74661F96F32300DF5167 = {
+			isa = PBXGroup;
+			children = (
+				4EFE74711F96F32300DF5167 /* LEDShirtRemote */,
+				4EFE74861F96F32400DF5167 /* LEDShirtRemoteTests */,
+				4EFE74911F96F32400DF5167 /* LEDShirtRemoteUITests */,
+				4EFE74701F96F32300DF5167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EFE74701F96F32300DF5167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFE746F1F96F32300DF5167 /* LEDShirtRemote.app */,
+				4EFE74831F96F32400DF5167 /* LEDShirtRemoteTests.xctest */,
+				4EFE748E1F96F32400DF5167 /* LEDShirtRemoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EFE74711F96F32300DF5167 /* LEDShirtRemote */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB946F1F9B183300D537F4 /* SystemDataHelper.swift */,
+				4EFE74721F96F32300DF5167 /* AppDelegate.swift */,
+				4EFE74741F96F32300DF5167 /* ViewController.swift */,
+				4EFE74761F96F32300DF5167 /* Main.storyboard */,
+				4EFE74791F96F32300DF5167 /* Assets.xcassets */,
+				4EFE747B1F96F32300DF5167 /* LaunchScreen.storyboard */,
+				4EFE747E1F96F32300DF5167 /* Info.plist */,
+				4EBB946D1F9B167800D537F4 /* ColorWrapper.swift */,
+				4E138EF81F9B1CA7007D80E9 /* FrameViewCell.swift */,
+				4E138EFA1F9B1D1C007D80E9 /* FramesTableViewController.swift */,
+				4E138EFC1F9B1E60007D80E9 /* Frame.swift */,
+			);
+			path = LEDShirtRemote;
+			sourceTree = "<group>";
+		};
+		4EFE74861F96F32400DF5167 /* LEDShirtRemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFE74871F96F32400DF5167 /* LEDShirtRemoteTests.swift */,
+				4EFE74891F96F32400DF5167 /* Info.plist */,
+			);
+			path = LEDShirtRemoteTests;
+			sourceTree = "<group>";
+		};
+		4EFE74911F96F32400DF5167 /* LEDShirtRemoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFE74921F96F32400DF5167 /* LEDShirtRemoteUITests.swift */,
+				4EFE74941F96F32400DF5167 /* Info.plist */,
+			);
+			path = LEDShirtRemoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EFE746E1F96F32300DF5167 /* LEDShirtRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFE74971F96F32400DF5167 /* Build configuration list for PBXNativeTarget "LEDShirtRemote" */;
+			buildPhases = (
+				4EFE746B1F96F32300DF5167 /* Sources */,
+				4EFE746C1F96F32300DF5167 /* Frameworks */,
+				4EFE746D1F96F32300DF5167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEDShirtRemote;
+			productName = LEDShirtRemote;
+			productReference = 4EFE746F1F96F32300DF5167 /* LEDShirtRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EFE74821F96F32400DF5167 /* LEDShirtRemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFE749A1F96F32400DF5167 /* Build configuration list for PBXNativeTarget "LEDShirtRemoteTests" */;
+			buildPhases = (
+				4EFE747F1F96F32400DF5167 /* Sources */,
+				4EFE74801F96F32400DF5167 /* Frameworks */,
+				4EFE74811F96F32400DF5167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFE74851F96F32400DF5167 /* PBXTargetDependency */,
+			);
+			name = LEDShirtRemoteTests;
+			productName = LEDShirtRemoteTests;
+			productReference = 4EFE74831F96F32400DF5167 /* LEDShirtRemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EFE748D1F96F32400DF5167 /* LEDShirtRemoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFE749D1F96F32400DF5167 /* Build configuration list for PBXNativeTarget "LEDShirtRemoteUITests" */;
+			buildPhases = (
+				4EFE748A1F96F32400DF5167 /* Sources */,
+				4EFE748B1F96F32400DF5167 /* Frameworks */,
+				4EFE748C1F96F32400DF5167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFE74901F96F32400DF5167 /* PBXTargetDependency */,
+			);
+			name = LEDShirtRemoteUITests;
+			productName = LEDShirtRemoteUITests;
+			productReference = 4EFE748E1F96F32400DF5167 /* LEDShirtRemoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EFE74671F96F32300DF5167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = SnappyApps;
+				TargetAttributes = {
+					4EFE746E1F96F32300DF5167 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					4EFE74821F96F32400DF5167 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EFE746E1F96F32300DF5167;
+					};
+					4EFE748D1F96F32400DF5167 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EFE746E1F96F32300DF5167;
+					};
+				};
+			};
+			buildConfigurationList = 4EFE746A1F96F32300DF5167 /* Build configuration list for PBXProject "LEDShirtRemote" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EFE74661F96F32300DF5167;
+			productRefGroup = 4EFE74701F96F32300DF5167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EFE746E1F96F32300DF5167 /* LEDShirtRemote */,
+				4EFE74821F96F32400DF5167 /* LEDShirtRemoteTests */,
+				4EFE748D1F96F32400DF5167 /* LEDShirtRemoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EFE746D1F96F32300DF5167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFE747D1F96F32300DF5167 /* LaunchScreen.storyboard in Resources */,
+				4EFE747A1F96F32300DF5167 /* Assets.xcassets in Resources */,
+				4EFE74781F96F32300DF5167 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFE74811F96F32400DF5167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFE748C1F96F32400DF5167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EFE746B1F96F32300DF5167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBB94701F9B183300D537F4 /* SystemDataHelper.swift in Sources */,
+				4EFE74751F96F32300DF5167 /* ViewController.swift in Sources */,
+				4E138EF91F9B1CA7007D80E9 /* FrameViewCell.swift in Sources */,
+				4EBB946E1F9B167900D537F4 /* ColorWrapper.swift in Sources */,
+				4E138EFD1F9B1E60007D80E9 /* Frame.swift in Sources */,
+				4EFE74731F96F32300DF5167 /* AppDelegate.swift in Sources */,
+				4E138EFB1F9B1D1C007D80E9 /* FramesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFE747F1F96F32400DF5167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFE74881F96F32400DF5167 /* LEDShirtRemoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFE748A1F96F32400DF5167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFE74931F96F32400DF5167 /* LEDShirtRemoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EFE74851F96F32400DF5167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EFE746E1F96F32300DF5167 /* LEDShirtRemote */;
+			targetProxy = 4EFE74841F96F32400DF5167 /* PBXContainerItemProxy */;
+		};
+		4EFE74901F96F32400DF5167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EFE746E1F96F32300DF5167 /* LEDShirtRemote */;
+			targetProxy = 4EFE748F1F96F32400DF5167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EFE74761F96F32300DF5167 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFE74771F96F32300DF5167 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EFE747B1F96F32300DF5167 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFE747C1F96F32300DF5167 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EFE74951F96F32400DF5167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EFE74961F96F32400DF5167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EFE74981F96F32400DF5167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXUJPR8798;
+				INFOPLIST_FILE = LEDShirtRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SnappyApps.LEDShirtRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EFE74991F96F32400DF5167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXUJPR8798;
+				INFOPLIST_FILE = LEDShirtRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SnappyApps.LEDShirtRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EFE749B1F96F32400DF5167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXUJPR8798;
+				INFOPLIST_FILE = LEDShirtRemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SnappyApps.LEDShirtRemoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEDShirtRemote.app/LEDShirtRemote";
+			};
+			name = Debug;
+		};
+		4EFE749C1F96F32400DF5167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXUJPR8798;
+				INFOPLIST_FILE = LEDShirtRemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SnappyApps.LEDShirtRemoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEDShirtRemote.app/LEDShirtRemote";
+			};
+			name = Release;
+		};
+		4EFE749E1F96F32400DF5167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXUJPR8798;
+				INFOPLIST_FILE = LEDShirtRemoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SnappyApps.LEDShirtRemoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LEDShirtRemote;
+			};
+			name = Debug;
+		};
+		4EFE749F1F96F32400DF5167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXUJPR8798;
+				INFOPLIST_FILE = LEDShirtRemoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SnappyApps.LEDShirtRemoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LEDShirtRemote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EFE746A1F96F32300DF5167 /* Build configuration list for PBXProject "LEDShirtRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFE74951F96F32400DF5167 /* Debug */,
+				4EFE74961F96F32400DF5167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFE74971F96F32400DF5167 /* Build configuration list for PBXNativeTarget "LEDShirtRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFE74981F96F32400DF5167 /* Debug */,
+				4EFE74991F96F32400DF5167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFE749A1F96F32400DF5167 /* Build configuration list for PBXNativeTarget "LEDShirtRemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFE749B1F96F32400DF5167 /* Debug */,
+				4EFE749C1F96F32400DF5167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFE749D1F96F32400DF5167 /* Build configuration list for PBXNativeTarget "LEDShirtRemoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFE749E1F96F32400DF5167 /* Debug */,
+				4EFE749F1F96F32400DF5167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EFE74671F96F32300DF5167 /* Project object */;
+}
